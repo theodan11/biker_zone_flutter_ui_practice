@@ -23,10 +23,15 @@ class LatestCard extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Image.asset(
-            bikeImage,
-            width: 295,
-            fit: BoxFit.cover,
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Image.asset(
+                bikeImage,
+                width: 295,
+                fit: BoxFit.cover,
+              ),
+            ],
           ),
           const SizedBox(height: 30),
           Text(

@@ -1,4 +1,6 @@
 import 'package:biker_zone/component/featured_screen.dart';
+import 'package:biker_zone/component/footer.dart';
+import 'package:biker_zone/component/frequently_asked_questions.dart';
 import 'package:biker_zone/component/landing_screen.dart';
 import 'package:biker_zone/component/latest_news_screen.dart';
 import 'package:biker_zone/component/review_screen.dart';
@@ -70,6 +72,8 @@ class _HomeScreenState extends State<HomeScreen> {
           const FeaturedScreen(),
           const LatestNewsScreen(),
           const ReviewScreen(),
+          const FrequentlyAskedQuestions(),
+          const Footer(),
         ],
       ),
     );

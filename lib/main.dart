@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
       title: 'Biker Zone',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
+        scaffoldBackgroundColor: Colors.white,
         //colorScheme: ColorScheme.fromSeed(seedColor: Color(0xff264653)),
         useMaterial3: true,
       ),
